@@ -7,8 +7,6 @@ inhibit_all_warnings!
 
 def shared_pods
 	pod 'SnapKit'
-	pod 'RxSwift'
-	pod 'RxCocoa'
 end
 
 def testing_pods
