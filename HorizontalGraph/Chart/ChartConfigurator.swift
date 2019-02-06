@@ -12,7 +12,7 @@ class ChartConfigurator {
     static let instance:ChartConfigurator = ChartConfigurator()
     private init(){}
     
-    func configure(with view:ChartView) {
+    func configure(with view:ChartContainerView) {
         let interactor = ChartInteractor()
         let presenter = ChartPresenter()
         

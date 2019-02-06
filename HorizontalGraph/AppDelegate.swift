@@ -17,10 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
-        let chartView = ChartView()
+        let chartView = ChartContainerView()
         ChartConfigurator.instance.configure(with: chartView)
-        let navController:UINavigationController = UINavigationController(rootViewController: chartView)
-        window?.rootViewController = navController
+        window?.rootViewController = chartView
         window?.makeKeyAndVisible()
         return true
     }

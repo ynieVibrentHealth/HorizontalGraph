@@ -12,11 +12,14 @@
 		4C274F01220A0567007933E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C274EFF220A0567007933E5 /* LaunchScreen.storyboard */; };
 		4C274F0C220A0567007933E5 /* HorizontalGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C274F0B220A0567007933E5 /* HorizontalGraphTests.swift */; };
 		4C274F17220A0567007933E5 /* HorizontalGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C274F16220A0567007933E5 /* HorizontalGraphUITests.swift */; };
-		4C9D79AB220A505200178D0E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79AA220A505200178D0E /* ChartView.swift */; };
+		4C9D79AB220A505200178D0E /* ChartContainerViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79AA220A505200178D0E /* ChartContainerViewInput.swift */; };
 		4C9D79AD220A509500178D0E /* ChartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79AC220A509500178D0E /* ChartInteractor.swift */; };
 		4C9D79AF220A50A100178D0E /* ChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79AE220A50A100178D0E /* ChartPresenter.swift */; };
 		4C9D79B1220A50AB00178D0E /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79B0220A50AB00178D0E /* ChartModel.swift */; };
 		4C9D79B4220A559700178D0E /* ChartConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79B3220A559700178D0E /* ChartConfigurator.swift */; };
+		4CB6DD84220B93C2002FED4A /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6DD83220B93C2002FED4A /* ChartViewModel.swift */; };
+		4CB6DD87220B951A002FED4A /* WorkoutData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6DD86220B951A002FED4A /* WorkoutData.json */; };
+		4CB6DD8A220B9B75002FED4A /* ChartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6DD89220B9B75002FED4A /* ChartItemView.swift */; };
 		7868BE81809911C91D1DF95E /* Pods_HorizontalGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7DA954AF18F2798C523099 /* Pods_HorizontalGraph.framework */; };
 		A10CE28DD1E3DBFCEBD0B51C /* Pods_HorizontalGraphTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A7472EB9746C89E7CB155C /* Pods_HorizontalGraphTests.framework */; };
 		B8A822422475C24DAA1065C3 /* Pods_HorizontalGraphUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5738EA745886504D631634F3 /* Pods_HorizontalGraphUITests.framework */; };
@@ -55,11 +58,14 @@
 		4C274F12220A0567007933E5 /* HorizontalGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C274F16220A0567007933E5 /* HorizontalGraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGraphUITests.swift; sourceTree = "<group>"; };
 		4C274F18220A0567007933E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C9D79AA220A505200178D0E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		4C9D79AA220A505200178D0E /* ChartContainerViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartContainerViewInput.swift; sourceTree = "<group>"; };
 		4C9D79AC220A509500178D0E /* ChartInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractor.swift; sourceTree = "<group>"; };
 		4C9D79AE220A50A100178D0E /* ChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPresenter.swift; sourceTree = "<group>"; };
 		4C9D79B0220A50AB00178D0E /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
 		4C9D79B3220A559700178D0E /* ChartConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartConfigurator.swift; sourceTree = "<group>"; };
+		4CB6DD83220B93C2002FED4A /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
+		4CB6DD86220B951A002FED4A /* WorkoutData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WorkoutData.json; sourceTree = "<group>"; };
+		4CB6DD89220B9B75002FED4A /* ChartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartItemView.swift; sourceTree = "<group>"; };
 		5738EA745886504D631634F3 /* Pods_HorizontalGraphUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalGraphUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FD956BDC4C370ECD7CFC3B /* Pods-HorizontalGraphTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalGraphTests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalGraphTests/Pods-HorizontalGraphTests.debug.xcconfig"; sourceTree = "<group>"; };
 		854F632EEE640103CA6E263C /* Pods-HorizontalGraphUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalGraphUITests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalGraphUITests/Pods-HorizontalGraphUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,13 +156,32 @@
 		4C9D79B2220A557E00178D0E /* Chart */ = {
 			isa = PBXGroup;
 			children = (
+				4CB6DD88220B9B67002FED4A /* Subviews */,
+				4CB6DD85220B9503002FED4A /* SampleData */,
 				4C9D79AE220A50A100178D0E /* ChartPresenter.swift */,
-				4C9D79AA220A505200178D0E /* ChartView.swift */,
+				4C9D79AA220A505200178D0E /* ChartContainerViewInput.swift */,
 				4C9D79AC220A509500178D0E /* ChartInteractor.swift */,
 				4C9D79B0220A50AB00178D0E /* ChartModel.swift */,
 				4C9D79B3220A559700178D0E /* ChartConfigurator.swift */,
+				4CB6DD83220B93C2002FED4A /* ChartViewModel.swift */,
 			);
 			path = Chart;
+			sourceTree = "<group>";
+		};
+		4CB6DD85220B9503002FED4A /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				4CB6DD86220B951A002FED4A /* WorkoutData.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		4CB6DD88220B9B67002FED4A /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4CB6DD89220B9B75002FED4A /* ChartItemView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		C8489B506D53A6E1D9AD6F36 /* Frameworks */ = {
@@ -292,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB6DD87220B951A002FED4A /* WorkoutData.json in Resources */,
 				4C274F01220A0567007933E5 /* LaunchScreen.storyboard in Resources */,
 				4C274EFE220A0567007933E5 /* Assets.xcassets in Resources */,
 			);
@@ -464,9 +490,11 @@
 				4C274EF7220A0566007933E5 /* AppDelegate.swift in Sources */,
 				4C9D79AF220A50A100178D0E /* ChartPresenter.swift in Sources */,
 				4C9D79AD220A509500178D0E /* ChartInteractor.swift in Sources */,
-				4C9D79AB220A505200178D0E /* ChartView.swift in Sources */,
+				4C9D79AB220A505200178D0E /* ChartContainerViewInput.swift in Sources */,
 				4C9D79B1220A50AB00178D0E /* ChartModel.swift in Sources */,
 				4C9D79B4220A559700178D0E /* ChartConfigurator.swift in Sources */,
+				4CB6DD84220B93C2002FED4A /* ChartViewModel.swift in Sources */,
+				4CB6DD8A220B9B75002FED4A /* ChartItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,7 +671,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yuchen.SampleUITesting.HorizontalGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -661,7 +689,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yuchen.SampleUITesting.HorizontalGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
