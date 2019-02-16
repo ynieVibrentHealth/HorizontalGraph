@@ -1,7 +1,8 @@
 Horizontal Graph Project
 =====================================
 
-####Loading Project
+Loading Project
+------
 1. Navigate to root folder
 2. If you do not have **Cocapods** installed, run in terminal:
 ```
