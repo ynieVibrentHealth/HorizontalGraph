@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct ChartModel {
     struct Functions {
@@ -20,14 +21,18 @@ struct ChartModel {
         }
         
         enum State {
-            case WorkoutData(workoutViewModels:[ChartViewModel], maxFTP:Float)
-            case Error(chartError:ChartError)
+            case WorkoutData(workoutViewModels:[ChartViewModel], maxFTP:Float, ftpLine:Float)
+            case Error(chartMessage:String)
         }
     }
     
     enum ChartError:Error {
         case UnableToReadData
         case UnableToParseData
+    }
+    
+    struct Dimensions {
+        static let Height:CGFloat = UIScreen.main.bounds.height - 20
     }
 }
 

@@ -20,12 +20,5 @@ target 'HorizontalGraph' do
 end
 
 target 'HorizontalGraphTests' do
-	shared_pods
-	testing_pods
-end
-
-
-target 'HorizontalGraphUITests' do
-	shared_pods
 	testing_pods
 end

@@ -36,8 +36,7 @@ class ChartItemView:UIView {
     override func updateConstraints() {
         containerView.snp.updateConstraints { (make) in
             make.edges.equalTo(self).priority(999)
-            //make.top.equalTo(self).inset(10)
-            make.height.equalTo(UIScreen.main.bounds.height).priority(999)
+            make.height.equalTo(ChartModel.Dimensions.Height).priority(999)
             make.width.equalTo(self.width).priority(999)
         }
         

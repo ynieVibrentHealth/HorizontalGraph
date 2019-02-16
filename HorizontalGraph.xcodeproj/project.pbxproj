@@ -11,7 +11,6 @@
 		4C274EFE220A0567007933E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C274EFD220A0567007933E5 /* Assets.xcassets */; };
 		4C274F01220A0567007933E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C274EFF220A0567007933E5 /* LaunchScreen.storyboard */; };
 		4C274F0C220A0567007933E5 /* HorizontalGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C274F0B220A0567007933E5 /* HorizontalGraphTests.swift */; };
-		4C274F17220A0567007933E5 /* HorizontalGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C274F16220A0567007933E5 /* HorizontalGraphUITests.swift */; };
 		4C9D79AB220A505200178D0E /* ChartContainerViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79AA220A505200178D0E /* ChartContainerViewInput.swift */; };
 		4C9D79AD220A509500178D0E /* ChartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79AC220A509500178D0E /* ChartInteractor.swift */; };
 		4C9D79AF220A50A100178D0E /* ChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D79AE220A50A100178D0E /* ChartPresenter.swift */; };
@@ -20,20 +19,14 @@
 		4CB6DD84220B93C2002FED4A /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6DD83220B93C2002FED4A /* ChartViewModel.swift */; };
 		4CB6DD87220B951A002FED4A /* WorkoutData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CB6DD86220B951A002FED4A /* WorkoutData.json */; };
 		4CB6DD8A220B9B75002FED4A /* ChartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6DD89220B9B75002FED4A /* ChartItemView.swift */; };
+		4CE046BA2218489E00474580 /* SampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CE046B92218489E00474580 /* SampleData.json */; };
+		4CE046BC22184BF500474580 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE046BB22184BF500474580 /* TestHelper.swift */; };
 		7868BE81809911C91D1DF95E /* Pods_HorizontalGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7DA954AF18F2798C523099 /* Pods_HorizontalGraph.framework */; };
 		A10CE28DD1E3DBFCEBD0B51C /* Pods_HorizontalGraphTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A7472EB9746C89E7CB155C /* Pods_HorizontalGraphTests.framework */; };
-		B8A822422475C24DAA1065C3 /* Pods_HorizontalGraphUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5738EA745886504D631634F3 /* Pods_HorizontalGraphUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4C274F08220A0567007933E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C274EEB220A0566007933E5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C274EF2220A0566007933E5;
-			remoteInfo = HorizontalGraph;
-		};
-		4C274F13220A0567007933E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C274EEB220A0566007933E5 /* Project object */;
 			proxyType = 1;
@@ -55,9 +48,6 @@
 		4C274F07220A0567007933E5 /* HorizontalGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C274F0B220A0567007933E5 /* HorizontalGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGraphTests.swift; sourceTree = "<group>"; };
 		4C274F0D220A0567007933E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C274F12220A0567007933E5 /* HorizontalGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C274F16220A0567007933E5 /* HorizontalGraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGraphUITests.swift; sourceTree = "<group>"; };
-		4C274F18220A0567007933E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9D79AA220A505200178D0E /* ChartContainerViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartContainerViewInput.swift; sourceTree = "<group>"; };
 		4C9D79AC220A509500178D0E /* ChartInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractor.swift; sourceTree = "<group>"; };
 		4C9D79AE220A50A100178D0E /* ChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPresenter.swift; sourceTree = "<group>"; };
@@ -66,11 +56,11 @@
 		4CB6DD83220B93C2002FED4A /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
 		4CB6DD86220B951A002FED4A /* WorkoutData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WorkoutData.json; sourceTree = "<group>"; };
 		4CB6DD89220B9B75002FED4A /* ChartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartItemView.swift; sourceTree = "<group>"; };
+		4CE046B92218489E00474580 /* SampleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleData.json; sourceTree = "<group>"; };
+		4CE046BB22184BF500474580 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestHelper.swift; path = HorizontalGraphTests/TestHelper.swift; sourceTree = SOURCE_ROOT; };
 		5738EA745886504D631634F3 /* Pods_HorizontalGraphUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalGraphUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FD956BDC4C370ECD7CFC3B /* Pods-HorizontalGraphTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalGraphTests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalGraphTests/Pods-HorizontalGraphTests.debug.xcconfig"; sourceTree = "<group>"; };
-		854F632EEE640103CA6E263C /* Pods-HorizontalGraphUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalGraphUITests.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalGraphUITests/Pods-HorizontalGraphUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1446E1FA704C22BBCB5F1E4 /* Pods-HorizontalGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalGraph.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalGraph/Pods-HorizontalGraph.debug.xcconfig"; sourceTree = "<group>"; };
-		E65CB87BBB042073B6BCA18F /* Pods-HorizontalGraphUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalGraphUITests.release.xcconfig"; path = "Target Support Files/Pods-HorizontalGraphUITests/Pods-HorizontalGraphUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,14 +80,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C274F0F220A0567007933E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8A822422475C24DAA1065C3 /* Pods_HorizontalGraphUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -106,7 +88,6 @@
 			children = (
 				4C274EF5220A0566007933E5 /* HorizontalGraph */,
 				4C274F0A220A0567007933E5 /* HorizontalGraphTests */,
-				4C274F15220A0567007933E5 /* HorizontalGraphUITests */,
 				4C274EF4220A0566007933E5 /* Products */,
 				F366734619E771BD3D786457 /* Pods */,
 				C8489B506D53A6E1D9AD6F36 /* Frameworks */,
@@ -118,7 +99,6 @@
 			children = (
 				4C274EF3220A0566007933E5 /* HorizontalGraph.app */,
 				4C274F07220A0567007933E5 /* HorizontalGraphTests.xctest */,
-				4C274F12220A0567007933E5 /* HorizontalGraphUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,19 +118,12 @@
 		4C274F0A220A0567007933E5 /* HorizontalGraphTests */ = {
 			isa = PBXGroup;
 			children = (
+				4CE046B82218488300474580 /* SampleData */,
 				4C274F0B220A0567007933E5 /* HorizontalGraphTests.swift */,
+				4CE046BB22184BF500474580 /* TestHelper.swift */,
 				4C274F0D220A0567007933E5 /* Info.plist */,
 			);
 			path = HorizontalGraphTests;
-			sourceTree = "<group>";
-		};
-		4C274F15220A0567007933E5 /* HorizontalGraphUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4C274F16220A0567007933E5 /* HorizontalGraphUITests.swift */,
-				4C274F18220A0567007933E5 /* Info.plist */,
-			);
-			path = HorizontalGraphUITests;
 			sourceTree = "<group>";
 		};
 		4C9D79B2220A557E00178D0E /* Chart */ = {
@@ -184,6 +157,14 @@
 			path = Subviews;
 			sourceTree = "<group>";
 		};
+		4CE046B82218488300474580 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				4CE046B92218489E00474580 /* SampleData.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
 		C8489B506D53A6E1D9AD6F36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,8 +182,6 @@
 				2D7AB39349A3C21ABEB00FBA /* Pods-HorizontalGraph.release.xcconfig */,
 				60FD956BDC4C370ECD7CFC3B /* Pods-HorizontalGraphTests.debug.xcconfig */,
 				247DBA958D4EAE7F99DCB4F0 /* Pods-HorizontalGraphTests.release.xcconfig */,
-				854F632EEE640103CA6E263C /* Pods-HorizontalGraphUITests.debug.xcconfig */,
-				E65CB87BBB042073B6BCA18F /* Pods-HorizontalGraphUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -249,26 +228,6 @@
 			productReference = 4C274F07220A0567007933E5 /* HorizontalGraphTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4C274F11220A0567007933E5 /* HorizontalGraphUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C274F21220A0567007933E5 /* Build configuration list for PBXNativeTarget "HorizontalGraphUITests" */;
-			buildPhases = (
-				AD8A37E5B163847F3309FC6F /* [CP] Check Pods Manifest.lock */,
-				4C274F0E220A0567007933E5 /* Sources */,
-				4C274F0F220A0567007933E5 /* Frameworks */,
-				4C274F10220A0567007933E5 /* Resources */,
-				AA470E0E952787290EFB54F8 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C274F14220A0567007933E5 /* PBXTargetDependency */,
-			);
-			name = HorizontalGraphUITests;
-			productName = HorizontalGraphUITests;
-			productReference = 4C274F12220A0567007933E5 /* HorizontalGraphUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -283,10 +242,6 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					4C274F06220A0567007933E5 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 4C274EF2220A0566007933E5;
-					};
-					4C274F11220A0567007933E5 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 4C274EF2220A0566007933E5;
 					};
@@ -307,7 +262,6 @@
 			targets = (
 				4C274EF2220A0566007933E5 /* HorizontalGraph */,
 				4C274F06220A0567007933E5 /* HorizontalGraphTests */,
-				4C274F11220A0567007933E5 /* HorizontalGraphUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -327,13 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C274F10220A0567007933E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4CE046BA2218489E00474580 /* SampleData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,54 +354,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA470E0E952787290EFB54F8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HorizontalGraphUITests/Pods-HorizontalGraphUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalGraphUITests/Pods-HorizontalGraphUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AD8A37E5B163847F3309FC6F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HorizontalGraphUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B060972375B00F66E7A3F03F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,7 +363,6 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HorizontalGraphTests/Pods-HorizontalGraphTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -471,7 +370,6 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
@@ -503,14 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C274F0C220A0567007933E5 /* HorizontalGraphTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C274F0E220A0567007933E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C274F17220A0567007933E5 /* HorizontalGraphUITests.swift in Sources */,
+				4CE046BC22184BF500474580 /* TestHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,11 +412,6 @@
 			isa = PBXTargetDependency;
 			target = 4C274EF2220A0566007933E5 /* HorizontalGraph */;
 			targetProxy = 4C274F08220A0567007933E5 /* PBXContainerItemProxy */;
-		};
-		4C274F14220A0567007933E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4C274EF2220A0566007933E5 /* HorizontalGraph */;
-			targetProxy = 4C274F13220A0567007933E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -733,44 +619,6 @@
 			};
 			name = Release;
 		};
-		4C274F22220A0567007933E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 854F632EEE640103CA6E263C /* Pods-HorizontalGraphUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HorizontalGraphUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Yuchen.SampleUITesting.HorizontalGraphUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HorizontalGraph;
-			};
-			name = Debug;
-		};
-		4C274F23220A0567007933E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E65CB87BBB042073B6BCA18F /* Pods-HorizontalGraphUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HorizontalGraphUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Yuchen.SampleUITesting.HorizontalGraphUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HorizontalGraph;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -797,15 +645,6 @@
 			buildConfigurations = (
 				4C274F1F220A0567007933E5 /* Debug */,
 				4C274F20220A0567007933E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4C274F21220A0567007933E5 /* Build configuration list for PBXNativeTarget "HorizontalGraphUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C274F22220A0567007933E5 /* Debug */,
-				4C274F23220A0567007933E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

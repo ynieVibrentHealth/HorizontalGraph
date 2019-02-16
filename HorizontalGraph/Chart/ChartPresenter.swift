@@ -18,7 +18,7 @@ class ChartPresenter:ChartPresenterInput {
     func process(_ response: ChartModel.Functions.Response) {
         switch response {
         case .Error(let chartError):
-            output?.display(.Error(chartError: chartError))
+            displayError(with: chartError)
         case .WorkoutData(let data):
             processDataTransferModels(chartDTOs: data)
         }
@@ -30,6 +30,7 @@ class ChartPresenter:ChartPresenterInput {
         for (index,dto) in chartDTOs.enumerated() {
             let viewModel:ChartViewModel
             if index == chartDTOs.count - 1 {
+                //Given that the endpoint doesn't have a next value, making the assumption that the cooldown is around 5 minutes
                 viewModel = ChartViewModel(length: 300, height: dto.ftp)
             } else {
                 let nextItem = chartDTOs[index + 1]
@@ -46,6 +47,23 @@ class ChartPresenter:ChartPresenterInput {
             chartModel.displayHeight = viewModel.height/maxFtp
             return chartModel
         }
-        output?.display(.WorkoutData(workoutViewModels: displayModels, maxFTP: maxFtp))
+        
+        output?.display(.WorkoutData(workoutViewModels: displayModels, maxFTP: maxFtp, ftpLine: calculateFTPLine(with: maxFtp)))
+    }
+    
+    private func calculateFTPLine(with maxFTP:Float) -> Float{
+        let currentContainerHeight = ChartModel.Dimensions.Height
+        return Float(currentContainerHeight)/maxFTP
+    }
+    
+    private func displayError(with chartError:ChartModel.ChartError) {
+        let errorMessage:String
+        switch chartError {
+        case .UnableToParseData:
+            errorMessage = "Unable to parse data from database"
+        case .UnableToReadData:
+            errorMessage = "Unable to read data from database"
+        }
+        output?.display(.Error(chartMessage: errorMessage))
     }
 }
