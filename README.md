@@ -8,7 +8,7 @@ Loading Project
 ```
 sudo gem install cocoapods
 ```
-3. Navigate to the root folder and run:
+3. Navigate to the root project folder and run:
 ```
 pod install
 ```
